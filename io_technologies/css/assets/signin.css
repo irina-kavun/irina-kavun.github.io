@@ -1,0 +1,59 @@
+.form-subtitle {
+    font-size: 18px;
+    color: #616983;
+}
+
+.signin-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.form-button:hover .arrow-right {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+.arrow-right {
+    display: inline-block;
+    height: 12px;
+    width: 30px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../img/right-arrow.png');
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.reset-text {
+    color: #616983;
+    font-size: 20px;
+}
+
+.reset-link {
+    color: #3A91E2;
+    font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+    .reset-text{
+        color: #fff;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-subtitle {
+        font-size: 20px;
+    }
+
+    .reset-text{
+        color: #616983;
+    }
+}

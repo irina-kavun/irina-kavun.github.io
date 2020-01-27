@@ -1,0 +1,19 @@
+.arrow-left {
+    position: absolute;
+    top: -55%;
+}
+
+.arrow-left path {
+    fill: #616983;
+}
+
+.btn-margin {
+    margin-top: 40px;
+}
+
+@media (max-width: 1000px) {
+    .arrow-left {
+        top: -25%;
+    }
+
+}
