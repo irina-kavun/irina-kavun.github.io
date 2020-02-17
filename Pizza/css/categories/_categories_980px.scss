@@ -1,0 +1,32 @@
+@media (min-width: 980px) and (max-width: 1199px) {
+
+  .menu-categories {
+    flex-direction: row;
+    .option {
+
+      &__image-item {
+        height: 330px;
+      }
+
+      &__subtitle {
+        font-size: 38px;
+
+        &--pizza{
+          top: 144px;
+          left: 37px;
+        }
+        &--salads {
+          top: 144px;
+          left: 40px;
+        }
+        &--desserts {
+          top: 144px;
+          left: 80px;
+        }
+      }
+      &__arrow-button {
+        display: none;
+      }
+    }
+  }
+}

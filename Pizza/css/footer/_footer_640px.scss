@@ -1,0 +1,17 @@
+@media (min-width: 640px) and (max-width: 979px) {
+  .footer {
+    margin-top: 94px;
+
+    &__text-item {
+      padding: 27px 0;
+    }
+
+    &__text {
+      font-size: 19px;
+
+      &--bottom {
+        margin-top: 8px;
+      }
+    }
+  }
+}

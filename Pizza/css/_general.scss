@@ -1,0 +1,69 @@
+body {
+  font-family: $fontFamilyMain;
+}
+
+.container {
+  max-width: 610px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.title-container {
+  padding: 0 8px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.offer-container {
+  padding: 0 16px;
+}
+
+
+@media (min-width: 640px) and (max-width: 979px) {
+  .container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  .offer-container {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  .container {
+    max-width: 1161px;
+    margin: 0 auto;
+  }
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 2100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13px;
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+}

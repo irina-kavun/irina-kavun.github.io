@@ -1,0 +1,62 @@
+@media (min-width: 640px) and (max-width: 979px) {
+
+  .main-section {
+    margin-top: 38px;
+
+    &__title {
+      font-size: 38px;
+      margin-left: 15px;
+    }
+    &__subtitle {
+      font-size: 20px;
+      margin: 0 16px 30px;
+    }
+
+    .menu {
+      &__title {
+        font-size: 39px;
+        padding: 16px 0 18px 40px;
+        margin-bottom: 29px;
+      }
+
+      .offer {
+
+        &__subtitle-text {
+          font-size: 29px;
+        }
+
+        &__subtitle-image {
+          width: 55px;
+          height: 40px;
+        }
+        &__image-icon {
+          height: 100%;
+        }
+
+        &__list {
+          margin-top: 33px;
+
+          &--bottom {
+            margin-bottom: 45px;
+          }
+        }
+        &__item {
+          margin: 25px 0;
+        }
+
+        &__option {
+          font-size: 27px;
+        }
+
+        &__price {
+          font-size: 27px;
+        }
+
+        &__text {
+          font-size: 18px;
+          margin: 16px 0;
+        }
+      }
+    }
+  }
+}

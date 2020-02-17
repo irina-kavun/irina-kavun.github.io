@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+  .menu-categories {
+    flex-direction: row;
+    .option {
+      flex-grow: 1;
+
+      &__image-item {
+        height: 400px;
+      }
+
+      &__subtitle {
+        font-size: 46px;
+
+        &--pizza{
+          top: 173px;
+          left: 48px;
+        }
+        &--salads {
+          top: 173px;
+          left: 60px;
+        }
+        &--desserts {
+          top: 173px;
+          left: 105px;
+        }
+      }
+      &__arrow-button {
+        display: none;
+      }
+    }
+  }
+}

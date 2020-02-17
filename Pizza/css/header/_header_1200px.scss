@@ -1,0 +1,58 @@
+@media (min-width: 1200px)  {
+
+  .header {
+    &__background {
+      height: 652px;
+    }
+  }
+  .navbar {
+
+    &__text {
+      display: none;
+    }
+
+    &__menu-list {
+      display: flex;
+      position: static;
+      background-color: $darkGrey;
+
+    }
+
+    &__menu-list-item {
+      font-family: $fontFamilyMinor;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: $navbarText;
+      padding: 40px 0;
+      margin-left: 31px;
+      border: none;
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    &__logo {
+      display: block;
+      margin-right: 35px;
+    }
+  }
+  .title {
+    padding-top: 59px;
+
+    &__slogan {
+      font-size: 57px;
+      letter-spacing: 1px;
+
+      &--margin {
+        margin-top: 5px;
+      }
+    }
+    &__web {
+      font-size: 36px;
+      margin-top: 45px;
+      letter-spacing: 1px;
+    }
+  }
+}
+

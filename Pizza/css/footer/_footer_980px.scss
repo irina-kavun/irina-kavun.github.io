@@ -1,0 +1,21 @@
+@media (min-width: 980px) and (max-width: 1199px) {
+  .footer {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    &__text-item {
+      padding: 38px 0;
+      flex-direction: row;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+    &__logo-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
